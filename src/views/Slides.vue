@@ -7,15 +7,15 @@
     indicators
   >
     <b-carousel-slide
-      caption="sz"
+      caption=""
       img-src="@/assets/unhas.png"
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="sz"
+      caption=""
       img-src="@/assets/unhas1.jpg"
     ></b-carousel-slide>
     <b-carousel-slide
-      caption="sz"
+      caption=""
       img-src="@/assets/unhas2.jpg"
     ></b-carousel-slide>
   
@@ -29,14 +29,14 @@ export default {
 }
 </script>
 <style>
-/* #div-slide{
-  height: relative; 
+ #div-slide{
+  height: 300px; width: 100%;
   align-content: center;
 }
  @media only screen and (min-width: 600px) {
   #div-slide{
   height: 500px; width: 100%;
   }
-}  */
+}  
 
 </style>

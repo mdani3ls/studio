@@ -89,8 +89,8 @@ export default {
 
 <style>
 #logoImage{
-  height: 200px;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 #title{
     text-align: center;
@@ -112,8 +112,13 @@ export default {
   justify-content: space-around;
 }
 #slides{
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 25%;
+  width: 50%;
 }
-
+@media only screen and (max-width: 600px) {
+  #slides{
+  margin: auto;
+  height: 500px; width: 100%;
+  }
+}
 </style>
